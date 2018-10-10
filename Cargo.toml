@@ -1,0 +1,6 @@
+[package]
+name = "template_creator"
+version = "0.1.0"
+authors = ["Anton Tuzhik <a.tuzhik@semrush.com>"]
+
+[dependencies]
