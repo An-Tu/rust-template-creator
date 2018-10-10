@@ -35,5 +35,5 @@ fn main() {
 
     // create index file
     replace_template(&mut index_content, FILE_NAME, &conf.name);
-    create_file(&conf.path, &conf.name, "js", &index_content);
+    create_file(&conf.path, "index", "js", &index_content);
 }
